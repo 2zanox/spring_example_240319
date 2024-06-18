@@ -27,4 +27,7 @@ public interface ReviewMapper {
 	public int updateReviewById(
 			@Param("id") int id, 
 			@Param("review") String review);
+	
+	// ex04
+	public int deleteReviewById(int id);
 }
