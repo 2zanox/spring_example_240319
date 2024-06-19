@@ -54,7 +54,7 @@ public class Lesson04Ex01Controller {
 		
 		
 		// 화면
-		return "lesson04/latestUser";		
+		return "lesson04/latestUser";
 	}
 	
 }
