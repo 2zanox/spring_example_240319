@@ -17,5 +17,7 @@ public interface UserMapper {
 	
 	public User selectLatestUser();
 	
+	// ex02
+	public boolean isDuplicationByName(String name);
 	
 }

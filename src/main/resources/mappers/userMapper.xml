@@ -39,4 +39,14 @@
 		ORDER BY `id` DESC
 		LIMIT 1
  	</select>
+ 	
+ 	<!-- ex02 -->
+ 	<select id="isDuplicationByName" parameterType="string" resultType="boolean">
+ 		SELECT
+ 			COUNT(*)
+ 		FROM
+ 			`new_user`
+ 		WHERE
+ 			`name` = #{name}
+ 	</select>
  </mapper>
