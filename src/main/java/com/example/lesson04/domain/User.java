@@ -2,6 +2,9 @@ package com.example.lesson04.domain;
 
 import java.time.LocalDateTime;
 
+import lombok.Data;
+
+@Data
 public class User {
 	
 	// 필드
